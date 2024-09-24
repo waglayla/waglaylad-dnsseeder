@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Waglayla/waglaylad/infrastructure/config"
+	"github.com/waglayla/waglaylad/infrastructure/config"
 
-	"github.com/Waglayla/waglaylad-dnsseeder/version"
+	"github.com/waglayla/waglaylad-dnsseeder/version"
 	"github.com/pkg/errors"
 
 	"github.com/Waglayla/waglaylad/util"
