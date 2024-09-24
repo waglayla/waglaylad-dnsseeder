@@ -4,7 +4,7 @@ github.com/Pyrinpyi/go-muhash v1.0.0 h1:I4f+IzHWvNROJDs/GDmigkJXjjpJXcu2Gvf7vn6e
 github.com/Pyrinpyi/go-muhash v1.0.0/go.mod h1:zeHWce+EzRs04ZLl/cwiTBXAgD2jrJlQQq8KE9urtJ4=
 github.com/Pyrinpyi/go-secp256k1 v1.0.0 h1:K2IBejaIy3GqGYRpED/HhfBog92oALfHEQEfnTGRS/s=
 github.com/waglayla/waglaylad v0.13.3 h1:UbskkwKjka7ZOG/Z7Q7Xixzsw2jw1LX5lc+cmzvrU90=
-github.com/waglayla/waglaylad v0.13.3/go.mod h1:fcnSd0HUuy/R+2tFSXi6WfWaondrPMrPM8hTnxd0vrk=
+github.com/waglayla/waglaylad v0.13.3/go.mod h1:+LXs8e5YszoL2G2SJ9GGRbkcWHdT5fYfMbjph2ZyVHc=
 github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd h1:R/opQEbFEy9JGkIguV40SvRY1uliPX8ifOvi6ICsFCw=
 github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd/go.mod h1:HHNXQzUsZCxOoE+CPiyCTO6x34Zs86zZUiwtpXoGdtg=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
