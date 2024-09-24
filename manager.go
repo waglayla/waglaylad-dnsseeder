@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Waglayla/waglaylad/infrastructure/network/addressmanager"
+	"github.com/waglayla/waglaylad/infrastructure/network/addressmanager"
 
-	"github.com/Waglayla/waglaylad/app/appmessage"
-	"github.com/Waglayla/waglaylad/domain/consensus/model/externalapi"
+	"github.com/waglayla/waglaylad/app/appmessage"
+	"github.com/waglayla/waglaylad/domain/consensus/model/externalapi"
 	"github.com/miekg/dns"
 	"github.com/pkg/errors"
 )
