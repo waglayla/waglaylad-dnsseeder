@@ -17,7 +17,7 @@ import (
 	"github.com/waglayla/waglaylad-dnsseeder/version"
 	"github.com/pkg/errors"
 
-	"github.com/Waglayla/waglaylad/util"
+	"github.com/waglayla/waglaylad/util"
 	"github.com/jessevdk/go-flags"
 )
 
