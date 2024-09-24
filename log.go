@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Waglayla/waglaylad/infrastructure/logger"
-	"github.com/Waglayla/waglaylad/util/panics"
+	"github.com/waglayla/waglaylad/infrastructure/logger"
+	"github.com/waglayla/waglaylad/util/panics"
 )
 
 var (
