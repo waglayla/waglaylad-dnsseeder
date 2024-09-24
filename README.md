@@ -4,7 +4,7 @@ This project is currently under active development and is in Beta state.
 ====
 
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](https://choosealicense.com/licenses/isc/)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/Waglayla/waglaylad-dnsseeder)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/waglayla/waglaylad-dnsseeder)
 
 DNSSeeder exposes a list of known peers to any new peer joining the waglayla network via the DNS protocol.
 
@@ -51,8 +51,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain dnsseeder, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/Waglayla/waglaylad-dnsseeder $GOPATH/src/github.com/Waglayla/waglaylad-dnsseeder
-$ cd $GOPATH/src/github.com/Waglayla/waglaylad-dnsseeder
+$ git clone https://github.com/waglayla/waglayla-dns-seeder $GOPATH/src/github.com/waglayla/waglayla-dns-seeder
+$ cd $GOPATH/src/github.com/waglayla/waglayla-dns-seeder
 $ go install . 
 ```
 
