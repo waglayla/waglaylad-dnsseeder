@@ -3,7 +3,7 @@ module github.com/waglayla/waglaylad-dnsseeder
 go 1.18
 
 require (
-	github.com/waglayla/waglaylad v1.0.q
+	github.com/waglayla/waglaylad v1.0.1
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/miekg/dns v1.1.25
 	github.com/pkg/errors v0.9.1
