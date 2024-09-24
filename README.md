@@ -51,8 +51,8 @@ recommended that `GOPATH` is set to a directory in your home directory such as
 - Run the following commands to obtain dnsseeder, all dependencies, and install it:
 
 ```bash
-$ git clone https://github.com/waglayla/waglayla-dns-seeder $GOPATH/src/github.com/waglayla/waglayla-dns-seeder
-$ cd $GOPATH/src/github.com/waglayla/waglayla-dns-seeder
+$ git clone https://github.com/waglayla/waglaylad-dnsseeder $GOPATH/src/github.com/waglayla/waglaylad-dnsseeder
+$ cd $GOPATH/src/github.com/waglayla/waglaylad-dnsseeder
 $ go install . 
 ```
 
