@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Waglayla/waglaylad/app/appmessage"
+	"github.com/waglayla/waglaylad/app/appmessage"
 
-	"github.com/Waglayla/waglaylad/domain/consensus/model/externalapi"
-	"github.com/Waglayla/waglaylad/domain/consensus/utils/subnetworks"
+	"github.com/waglayla/waglaylad/domain/consensus/model/externalapi"
+	"github.com/waglayla/waglaylad/domain/consensus/utils/subnetworks"
 
-	"github.com/Waglayla/waglaylad/infrastructure/network/dnsseed"
+	"github.com/waglayla/waglaylad/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
 	"github.com/miekg/dns"
