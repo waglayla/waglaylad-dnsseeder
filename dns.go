@@ -12,12 +12,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Pyrinpyi/pyipad/app/appmessage"
+	"github.com/Waglaylapyi/waglaylad/app/appmessage"
 
-	"github.com/Pyrinpyi/pyipad/domain/consensus/model/externalapi"
-	"github.com/Pyrinpyi/pyipad/domain/consensus/utils/subnetworks"
+	"github.com/Waglaylapyi/waglaylad/domain/consensus/model/externalapi"
+	"github.com/Waglaylapyi/waglaylad/domain/consensus/utils/subnetworks"
 
-	"github.com/Pyrinpyi/pyipad/infrastructure/network/dnsseed"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/network/dnsseed"
 	"github.com/pkg/errors"
 
 	"github.com/miekg/dns"

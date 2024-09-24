@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Pyrinpyi/pyipad/infrastructure/config"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/config"
 
-	"github.com/Pyrinpyi/pyipad-dnsseeder/version"
+	"github.com/Waglaylapyi/waglaylad-dnsseeder/version"
 	"github.com/pkg/errors"
 
-	"github.com/Pyrinpyi/pyipad/util"
+	"github.com/Waglaylapyi/waglaylad/util"
 	"github.com/jessevdk/go-flags"
 )
 
@@ -169,7 +169,7 @@ func loadConfig() (*ConfigFlags, error) {
 	}
 
 	// Manually enforce testnet 11 net params so we do not have to
-	// support this special network in pyrind.
+	// support this special network in waglaylad.
 	if activeConfig.NetSuffix != 0 {
 		if !activeConfig.Testnet {
 			return nil, errors.New("The net suffix can only be used with testnet")
@@ -178,7 +178,7 @@ func loadConfig() (*ConfigFlags, error) {
 			return nil, errors.New("The only supported explicit testnet net suffix is 11")
 		}
 		activeConfig.NetParams().DefaultPort = "16311"
-		activeConfig.NetParams().Name = "pyrin-testnet-11"
+		activeConfig.NetParams().Name = "waglayla-testnet-11"
 	}
 
 	activeConfig.AppDir = cleanAndExpandPath(activeConfig.AppDir)

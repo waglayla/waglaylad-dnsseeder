@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Pyrinpyi/pyipad/domain/consensus/model/externalapi"
-	"github.com/Pyrinpyi/pyipad/infrastructure/config"
+	"github.com/Waglaylapyi/waglaylad/domain/consensus/model/externalapi"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/config"
 
-	"github.com/Pyrinpyi/pyipad/app/appmessage"
-	"github.com/Pyrinpyi/pyipad/infrastructure/network/dnsseed/pb"
+	"github.com/Waglaylapyi/waglaylad/app/appmessage"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/network/dnsseed/pb"
 	"google.golang.org/grpc"
 )
 

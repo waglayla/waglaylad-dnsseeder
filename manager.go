@@ -12,15 +12,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Pyrinpyi/pyipad/infrastructure/network/addressmanager"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/network/addressmanager"
 
-	"github.com/Pyrinpyi/pyipad/app/appmessage"
-	"github.com/Pyrinpyi/pyipad/domain/consensus/model/externalapi"
+	"github.com/Waglaylapyi/waglaylad/app/appmessage"
+	"github.com/Waglaylapyi/waglaylad/domain/consensus/model/externalapi"
 	"github.com/miekg/dns"
 	"github.com/pkg/errors"
 )
 
-// Node repesents a node in the pyrin network
+// Node repesents a node in the waglayla network
 type Node struct {
 	Addr         *appmessage.NetAddress
 	LastAttempt  time.Time

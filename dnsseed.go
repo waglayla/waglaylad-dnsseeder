@@ -14,19 +14,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Pyrinpyi/pyipad/app/protocol/common"
-	"github.com/Pyrinpyi/pyipad/infrastructure/config"
-	"github.com/Pyrinpyi/pyipad/infrastructure/network/netadapter/standalone"
+	"github.com/Waglaylapyi/waglaylad/app/protocol/common"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/config"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/network/netadapter/standalone"
 
 	"github.com/pkg/errors"
 
-	"github.com/Pyrinpyi/pyipad-dnsseeder/version"
-	"github.com/Pyrinpyi/pyipad/infrastructure/network/dnsseed"
-	"github.com/Pyrinpyi/pyipad/util/panics"
-	"github.com/Pyrinpyi/pyipad/util/profiling"
+	"github.com/Waglaylapyi/waglaylad-dnsseeder/version"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/network/dnsseed"
+	"github.com/Waglaylapyi/waglaylad/util/panics"
+	"github.com/Waglaylapyi/waglaylad/util/profiling"
 
-	"github.com/Pyrinpyi/pyipad/app/appmessage"
-	"github.com/Pyrinpyi/pyipad/infrastructure/os/signal"
+	"github.com/Waglaylapyi/waglaylad/app/appmessage"
+	"github.com/Waglaylapyi/waglaylad/infrastructure/os/signal"
 
 	_ "net/http/pprof"
 )
@@ -95,8 +95,8 @@ func creep() {
 		if len(peers) == 0 && amgr.AddressCount() == 0 {
 			customSeed := ""
 
-			if ActiveConfig().NetParams().Name == "pyrin-testnet-10" {
-				customSeed = "seeder01-testnet.pyrin.network"
+			if ActiveConfig().NetParams().Name == "waglayla-testnet-10" {
+				customSeed = "seeder01-testnet.waglayla.network"
 			}
 
 			// Add peers discovered through DNS to the address manager.
