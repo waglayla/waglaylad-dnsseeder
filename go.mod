@@ -1,4 +1,5 @@
 module github.com/waglayla/waglaylad-dnsseeder
+go env -w GO111MODULE=on
 
 go 1.18
 
