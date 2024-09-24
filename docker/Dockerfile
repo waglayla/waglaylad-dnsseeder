@@ -1,9 +1,9 @@
 # -- multistage docker build: stage #1: build stage
 FROM golang:1.18-alpine AS build
 
-RUN mkdir -p /go/src/github.com/Waglaylapyi/waglaylad-dnsseeder
+RUN mkdir -p /go/src/github.com/Waglayla/waglaylad-dnsseeder
 
-WORKDIR /go/src/github.com/Waglaylapyi/waglaylad-dnsseeder
+WORKDIR /go/src/github.com/Waglayla/waglaylad-dnsseeder
 
 RUN apk add --no-cache curl git openssh binutils gcc musl-dev
 
@@ -12,12 +12,12 @@ COPY go.sum .
 
 # For development it's useful to have waglaylad from filesystem, but for deployment
 # we should use the one in github
-RUN go mod edit -dropreplace github.com/Waglaylapyi/waglaylad
+RUN go mod edit -dropreplace github.com/Waglayla/waglaylad
 ARG waglaylaD_VERSION
-ARG waglaylaD_REPOSITORY='github.com/Waglaylapyi/waglaylad'
+ARG waglaylaD_REPOSITORY='github.com/Waglayla/waglaylad'
 RUN if [ -n "${waglaylaD_VERSION}" ]; then \
         # use replace instead of require - to propagate into nested dependancies \
-        go mod edit -replace "github.com/Waglaylapyi/waglaylad=$waglaylaD_REPOSITORY@$waglaylaD_VERSION"; \
+        go mod edit -replace "github.com/Waglayla/waglaylad=$waglaylaD_REPOSITORY@$waglaylaD_VERSION"; \
     fi
 
 RUN go mod download
@@ -41,7 +41,7 @@ WORKDIR /app
 
 RUN apk add --no-cache tini
 
-COPY --from=build /go/src/github.com/Waglaylapyi/waglaylad-dnsseeder/ /app/
+COPY --from=build /go/src/github.com/Waglayla/waglaylad-dnsseeder/ /app/
 
 ENTRYPOINT ["/sbin/tini", "--"]
 CMD ["/app/dnsseeder"]

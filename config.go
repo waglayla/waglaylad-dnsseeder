@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Waglaylapyi/waglaylad/infrastructure/config"
+	"github.com/Waglayla/waglaylad/infrastructure/config"
 
-	"github.com/Waglaylapyi/waglaylad-dnsseeder/version"
+	"github.com/Waglayla/waglaylad-dnsseeder/version"
 	"github.com/pkg/errors"
 
-	"github.com/Waglaylapyi/waglaylad/util"
+	"github.com/Waglayla/waglaylad/util"
 	"github.com/jessevdk/go-flags"
 )
 

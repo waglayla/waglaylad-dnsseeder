@@ -14,19 +14,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Waglaylapyi/waglaylad/app/protocol/common"
-	"github.com/Waglaylapyi/waglaylad/infrastructure/config"
-	"github.com/Waglaylapyi/waglaylad/infrastructure/network/netadapter/standalone"
+	"github.com/Waglayla/waglaylad/app/protocol/common"
+	"github.com/Waglayla/waglaylad/infrastructure/config"
+	"github.com/Waglayla/waglaylad/infrastructure/network/netadapter/standalone"
 
 	"github.com/pkg/errors"
 
-	"github.com/Waglaylapyi/waglaylad-dnsseeder/version"
-	"github.com/Waglaylapyi/waglaylad/infrastructure/network/dnsseed"
-	"github.com/Waglaylapyi/waglaylad/util/panics"
-	"github.com/Waglaylapyi/waglaylad/util/profiling"
+	"github.com/Waglayla/waglaylad-dnsseeder/version"
+	"github.com/Waglayla/waglaylad/infrastructure/network/dnsseed"
+	"github.com/Waglayla/waglaylad/util/panics"
+	"github.com/Waglayla/waglaylad/util/profiling"
 
-	"github.com/Waglaylapyi/waglaylad/app/appmessage"
-	"github.com/Waglaylapyi/waglaylad/infrastructure/os/signal"
+	"github.com/Waglayla/waglaylad/app/appmessage"
+	"github.com/Waglayla/waglaylad/infrastructure/os/signal"
 
 	_ "net/http/pprof"
 )

@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Waglaylapyi/waglaylad/domain/consensus/model/externalapi"
-	"github.com/Waglaylapyi/waglaylad/infrastructure/config"
+	"github.com/Waglayla/waglaylad/domain/consensus/model/externalapi"
+	"github.com/Waglayla/waglaylad/infrastructure/config"
 
-	"github.com/Waglaylapyi/waglaylad/app/appmessage"
-	"github.com/Waglaylapyi/waglaylad/infrastructure/network/dnsseed/pb"
+	"github.com/Waglayla/waglaylad/app/appmessage"
+	"github.com/Waglayla/waglaylad/infrastructure/network/dnsseed/pb"
 	"google.golang.org/grpc"
 )
 
