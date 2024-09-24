@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Waglayla/waglaylad/domain/consensus/model/externalapi"
-	"github.com/Waglayla/waglaylad/domain/consensus/utils/subnetworks"
+	"github.com/waglayla/waglaylad/domain/consensus/model/externalapi"
+	"github.com/waglayla/waglaylad/domain/consensus/utils/subnetworks"
 
-	"github.com/Waglayla/waglaylad/app/appmessage"
-	"github.com/Waglayla/waglaylad/infrastructure/network/dnsseed/pb"
+	"github.com/waglayla/waglaylad/app/appmessage"
+	"github.com/waglayla/waglaylad/infrastructure/network/dnsseed/pb"
 	"github.com/miekg/dns"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
