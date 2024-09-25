@@ -177,7 +177,7 @@ func loadConfig() (*ConfigFlags, error) {
 		if activeConfig.NetSuffix != 11 {
 			return nil, errors.New("The only supported explicit testnet net suffix is 11")
 		}
-		activeConfig.NetParams().DefaultPort = "16311"
+		activeConfig.NetParams().DefaultPort = "12211"
 		activeConfig.NetParams().Name = "waglayla-testnet-11"
 	}
 
